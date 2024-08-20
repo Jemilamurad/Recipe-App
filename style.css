@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height: 100%;
+  margin: 100px 0;
+  border-radius: 10px;
+  background-color: rgb(211, 211, 211);
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 90%;
+  margin: 25px;
+  border-radius: 10px;
+}
+.title {
+  margin-left: 25px;
+}
+.title p {
+  margin-top: 25px;
+  line-height: 30px;
+}
+.prep {
+  width: 90%;
+  padding: 15px;
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: hsl(330, 100%, 98%);
+}
+.prep h3 {
+  margin-left: 15px;
+  color: hsl(332, 51%, 32%);
+}
+
+li {
+  margin-left: 30px;
+  padding: 10px;
+}
+.ing {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.ing h2 {
+  color: hsl(14, 45%, 36%);
+}
+.underline {
+  width: 90%;
+  text-decoration: underline;
+  border: 1px solid #a08a8a;
+  margin-top: 20px;
+}
+.inst {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.inst ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.inst h2 {
+  color: hsl(14, 45%, 36%);
+}
+.inst li {
+  line-height: 25px;
+}
+.underline2 {
+  width: 100%;
+  text-decoration: underline;
+  border: 1px solid #a08a8a;
+  margin-top: 20px;
+}
+.nut {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.nut h2 {
+  color: hsl(14, 45%, 36%);
+}
+.nut p {
+  margin-top: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+tr {
+  border-bottom: 1px solid #a08a8a;
+}
+tr:last-child {
+  border-bottom: none;
+}
+.brown {
+  color: hsl(14, 45%, 36%);
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 350px;
+  }
+  .image img {
+    width: 100%;
+  }
+  .title {
+    margin-left: 10px;
+  }
+  .prep {
+    margin-left: 0px;
+  }
+}
